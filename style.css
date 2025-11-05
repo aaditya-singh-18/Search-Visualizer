@@ -1,0 +1,87 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f6fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.33;
+}
+button:hover {
+    background: #0056b3;
+}
+
+input{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 150px;
+}
+
+.array-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    width: 90%;
+    gap: 5px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.bar{
+    width: 30px;
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px 4px 0 0 ;
+    transition: 0.3s;
+}
+
+.legend{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+}
+.color-box{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+.blue {
+    background: steelblue;
+}
+.orange { background: orange;}
+.red { background: crimson;}
+.green {background: green;}
+.gray {background: gray;}

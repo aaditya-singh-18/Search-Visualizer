@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> 🔍 Search Visualizer</h1>
+
+    <div class="controls">
+        <button id="generate">Generate Array</button>
+        <button id="sort">Sort Array</button>
+        <input type="number" id="target" placeholder="Enter number to search">
+        <button id="linear">Linear Search</button>
+        <button id="binary">Binary Search</button>
+    </div>
+
+    <div class="array-container" id="array"></div>
+
+    <div class="legend">
+        <div class="color-box blue"></div> Default
+        <div class="color-box orange"></div> Checking
+        <div class="color-box red"></div> Not Found
+        <div class="color-box green"></div> Found
+        <div class="color-box gray"></div> Ignored
+    </div>
+
+    <script src="index.js"></script>
+</body> 
+</html>
